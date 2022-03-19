@@ -1,0 +1,978 @@
+*{
+    margin:0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+ }
+
+ .logo{
+     width: 180px;
+     height: 100px;
+     float: left;
+     padding: 8px;
+     color: blue;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ header{
+     width: 100%;
+     clear: both;
+     content:"";
+     display: table;
+ }
+
+ nav{
+    float: right;
+ }
+
+ nav ul li{
+    list-style: none;
+    margin-bottom: 75px;
+    padding: 25px 0;
+    float: left;
+ }
+
+ nav ul li a{
+     text-decoration: none;
+     color: rgb(138, 138, 175);
+     font-weight: bold;
+     margin-right: 50px;
+     font-size: 14px;
+     
+ }
+
+ nav ul li a:hover{
+     text-decoration: underline;
+ }
+
+ button{
+     font-size: 15px;
+     font-weight: bold;
+     padding: 10px 30px;
+     border-radius: 10px;
+     border: 1px solid rgba(0,0,0,0.5);
+     background-color: blue;
+     color: white;
+     align-items: right;
+ 
+ }
+
+ button:hover{
+    background-color: rgb(31, 31, 100);
+ }
+
+.boton1{
+    height: 1px;
+    position: relative;
+    top: 15px;
+    left: 700px;
+}
+
+.imagen1{
+   width: 40%;
+   height: 80%;
+   margin-left: 55%;
+   margin-right: auto;
+   display:block;
+}
+
+.imagen2{
+    width: 100%;
+    height: 20%;
+    margin-left: 16%;
+    display:block;
+ }
+
+.textogrande{
+    width: 500px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 60px;
+    position: relative;
+    left: 210px;
+}
+
+.textochico{
+    width: 450px;
+    height: 450px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 18px;
+    position:absolute;
+    top: 175px;
+}
+
+.textochico2{
+    width: 450px;
+    color: rgb(61, 61, 117);
+    font-weight: bold;
+    margin-right: 100px;
+    font-size: 15px;
+    position:absolute;
+    top: 300px;
+    left: 50px;
+}
+
+.textochico3{
+    width: 250px;
+    color: rgb(61, 61, 117);
+    font-weight: bold;
+    margin-right: 100px;
+    font-size: 15px;
+    position:absolute;
+    top: 300px;
+    left: 220px;
+}
+
+.textomediano{
+    width: 450px;
+    color: rgb(61, 61, 117);
+    font-weight: bold;
+    margin-right: 100px;
+    font-size: 19px;
+    position:absolute;
+    top: 400px;
+    left: 50px;
+}
+
+.textolocation{
+    background-color: rgb(243, 239, 234);
+    width: 600px;
+    height: 100px ;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 550px;
+    font-size: 15px;
+    position:absolute;
+    top: 55px;
+    left: 50px;
+}
+
+.textodate{
+    width: 450px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 100px;
+    font-size: 15px;
+    position:absolute;
+    top: 55px;
+    left: 200px;
+}
+
+.textovacuna{
+    width: 450px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 100px;
+    font-size: 15px;
+    position:absolute;
+    top: 55px;
+    left: 310px;
+}
+
+.textoJaka{
+    width: 450px;
+    color: rgb(61, 61, 117);
+    font-weight: bold;
+    margin-right: 100px;
+    font-size: 15px;
+    position:absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.textofecha{
+    width: 450px;
+    color: rgb(61, 61, 117);
+    font-weight: bold;
+    margin-right: 100px;
+    font-size: 15px;
+    position:absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.textomoderna{
+    width: 450px;
+    color: rgb(61, 61, 117);
+    font-weight: bold;
+    margin-right: 100px;
+    font-size: 15px;
+    position:absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.boton2{
+    height: 1px;
+    position: absolute;
+    top: 15px;
+    left: 190px;
+}
+
+.parte2contenido{
+    width: 1000px;
+    height: 500px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 210px;
+    top: 150px;
+}
+
+.parte2contenido2{
+    width: 950px;
+    height: 400px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    top: 80px;
+}
+
+.texto1parte2{
+    width: 400px;
+    height: 250px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 17px;
+    position:absolute;
+    left: 230px;
+    top: 1250px;
+ }
+
+ .desc1part2{
+    width: 450px;
+    height: 400px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 12px;
+    position:absolute;
+    top: 50px;
+}
+
+.texto2parte2{
+    width: 400px;
+    height: 250px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 17px;
+    position:absolute;
+    left: 470px;
+    top: 1250px;
+ }
+
+ .desc2part2{
+    width: 450px;
+    height: 400px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 12px;
+    position:absolute;
+    top: 50px;
+}
+
+.texto3parte2{
+    width: 400px;
+    height: 250px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 17px;
+    position:absolute;
+    left: 710px;
+    top: 1250px;
+ }
+
+ .desc3part2{
+    width: 450px;
+    height: 400px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 12px;
+    position:absolute;
+    top: 50px;
+}
+
+.texto4parte2{
+    width: 200px;
+    height: 150px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 17px;
+    position:absolute;
+    left: 950px;
+    top: 1250px;
+ }
+
+ .desc4part2{
+    width: 200px;
+    height: 100px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 12px;
+    position:absolute;
+    top: 50px;
+}
+
+.texto1parte3{
+    width: 900px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+
+.texto2parte3{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 10px;
+    left: 470px;
+}
+
+.texto3parte3{
+    width: 450px;
+    height: 300px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 490px;
+    top: 80px;
+}
+
+.texto4parte3{
+    width: 450px;
+    height: 300px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 544px;
+    top: 200px;
+}
+
+.texto5parte3{
+    width: 450px;
+    height: 300px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 544px;
+    top: 260px;
+}
+
+.texto6parte3{
+    width: 450px;
+    height: 300px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 12px;
+    position:absolute;
+    left: 544px;
+    top: 290px;
+}
+
+.texto7parte3{
+    width: 450px;
+    height: 300px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 544px;
+    top: 380px;
+}
+
+.texto8parte3{
+    width: 450px;
+    height: 300px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 544px;
+    top: 440px;
+}
+
+.texto9parte3{
+    width: 450px;
+    height: 300px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 544px;
+    top: 500px;
+}
+
+.texto1parte4{
+    width: 900px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+
+.texto2parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 10px;
+    right: 455px;
+}
+
+.texto3parte4{
+    width: 450px;
+    height: 300px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    right: 333px;
+    top: 80px;
+}
+
+.texto4parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 200px;
+    right: 350px;
+}
+
+.texto4aparte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    top: 220px;
+    right: 350px;
+}
+
+.texto5parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 200px;
+    right: 160px;
+}
+
+.texto5aparte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    top: 220px;
+    right: 160px;
+}
+
+.texto6parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(60, 60, 245);;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 275px;
+    right: 350px;
+}
+
+.texto7parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 380px;
+    right: 350px;
+}
+
+.texto8parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 380px;
+    right: 150px;
+}
+
+.texto9parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    top: 400px;
+    right: 350px;
+}
+
+.texto10parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    top: 400px;
+    right: 150px;
+}
+
+.texto11parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(60, 60, 245);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 460px;
+    right: 390px;
+}
+
+.texto12parte4{
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    color: rgb(60, 60, 245);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 460px;
+    right: 180px;
+}
+
+.texto1parte5{
+    background-color: rgb(238, 238, 248);
+    width: 1015px;
+    height: 270px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+
+.texto2parte5{
+    width: 900px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.texto3parte5{
+    width: 900px;
+    height: 600px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 80px;
+    top: 70px;
+}
+
+.texto4parte5{
+    width: 900px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+
+.texto4aparte5{
+    width: 900px;
+    height: 600px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 522px;
+    top: 70px;
+}
+
+.texto5parte5{
+    width: 900px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 625px;
+}
+
+.texto5aparte5{
+    width: 900px;
+    height: 600px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 645px;
+    top: 70px;
+}
+
+.texto6parte5{
+    width: 900px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    color: rgb(58, 58, 131);
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 750px;
+}
+
+.texto6aparte5{
+    width: 900px;
+    height: 600px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 768px;
+    top: 70px;
+}
+
+.texto7parte5{
+    width: 900px;
+    height: 600px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 80px;
+    top: 230px;
+}
+
+.texto8parte5{
+    width: 900px;
+    height: 600px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 600px;
+    top: 230px;
+}
+
+.texto9parte5{
+    width: 900px;
+    height: 600px;
+    color: rgb(144, 144, 231);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+    position:absolute;
+    left: 770px;
+    top: 230px;
+}
+
+.imagen3{
+    width: 50%;
+    height: 90%;
+    margin-right: 55%;
+    display:block;
+ }
+
+ .imagen4{
+    width: 60%;
+    height: 100%;
+    margin-left: 55%;
+    margin-right: auto;
+    display:block;
+    top: 10px;
+ }
+
+ .boton4{
+    height: 1px;
+    position: absolute;
+    top: 280px;
+    left: 320px;
+}
+
+.boton5{
+    height: 1px;
+    background-color: rgb(14, 14, 94);
+    position: absolute;
+    top: 280px;
+    left: 110px;
+}
+
+.logo1p1{
+    display: block;
+    position:absolute;
+    left: -5px;
+    top: 120px;
+ }
+
+ .logo2p1{
+    display: block;
+    position:absolute;
+    left: 170px;
+    top: 120px;
+ }
+
+ .logo3p1{
+    display: block;
+    position:absolute;
+    left: -5px;
+    top: 220px;
+ }
+
+ .logo4p1{
+    display: block;
+    position:absolute;
+    left: 35px;
+    top: 273px;
+ }
+
+ .logo5p1{
+    display: block;
+    position:absolute;
+    left: 100px;
+    top: -1px;
+  }
+
+  .logo6p1{
+    display: block;
+    position:absolute;
+    left: 220px;
+    top: 2px;
+  }
+
+  .logo1p2{
+    display: block;
+    position:absolute;
+    top: 100px;
+    left: 10px;
+  }
+
+  .logo2p2{
+    display: block;
+    position:absolute;
+    top: 100px;
+    left: 250px;
+  }
+
+  .logo3p2{
+    display: block;
+    position:absolute;
+    top: 100px;
+    left: 500px;
+  }
+
+  .logo4p2{
+    display: block;
+    position:absolute;
+    top: 100px;
+    left: 730px;
+  }
+
+  .logo1p3{
+    display: block;
+    position:absolute;
+    top: 190px;
+    left: 500px;
+  }
+
+  .logo6p3{
+    display: block;
+    position:absolute;
+    top: 190px;
+    left: 855px;
+  }
+
+  .logo6xp3{
+    display: block;
+    position:absolute;
+    top: 370px;
+    left: 855px;
+  }
+
+  .logo2p3{
+    display: block;
+    position:absolute;
+    top: 255px;
+    left: 500px;
+  }
+
+  .logo7p3{
+    display: block;
+    position:absolute;
+    top: 255px;
+    left: 855px;
+  }
+
+  .logo3p3{
+    display: block;
+    position:absolute;
+    top: 369px;
+    left: 500px;
+  }
+
+  .logo4p3{
+    display: block;
+    position:absolute;
+    top: 430px;
+    left: 500px;
+  }
+
+  .logo5p3{
+    display: block;
+    position:absolute;
+    top: 495px;
+    left: 500px;
+  }
+  
+  .logo6xxp3{
+    display: block;
+    position:absolute;
+    top: 425px;
+    left: 855px;
+  }
+
+  .logo6xxxp3{
+    display: block;
+    position:absolute;
+    top: 493px;
+    left: 855px;
+  }
+
+  .logo1p4{
+    display: block;
+    position:absolute;
+    top: 220px;
+    left: 105px;
+  }
+
+  .logo2p4{
+    display: block;
+    position:absolute;
+    top: 395px;
+    left: 105px;
+  }
+
+  .logo3p4{
+    display: block;
+    position:absolute;
+    top: 220px;
+    left: 300px;
+  }
+
+  .logo4p4{
+    display: block;
+    position:absolute;
+    top: 395px;
+    left: 300px;
+  }
